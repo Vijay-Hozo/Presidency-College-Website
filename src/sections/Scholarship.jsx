@@ -4,7 +4,7 @@ const Scholarship = () => {
   return (
     <div className="mx-16 py-14">
       <div className="m-6">
-        <p className="text-[56px] leading-[65px] font-semibold border-b-[10px] border-yellow w-max">
+        <p className="text-[56px] leading-[35px] font-semibold border-b-[10px] border-yellow w-max">
           Scholarship program
         </p>
         <p className="text-[22px] font-medium py-3">
