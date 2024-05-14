@@ -1,17 +1,21 @@
-import "./index.css"
+import "./index.css";
 
-import Navbar from "./components/Navbar"
-import Hero from "./sections/Hero"
-import Rank from "./sections/Rank"
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
+import Rank from "./sections/Rank";
+import Video from "./sections/Video";
+import Scholarship from "./sections/Scholarship";
 
 const App = () => {
   return (
     <>
-    <Navbar />
-    <Hero />
-    <Rank />
+      <Navbar />
+      <Hero />
+      <Rank />
+      <Video />
+      <Scholarship />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
