@@ -7,7 +7,7 @@ const Navbar = () => {
     const navLinks = [{name:"Life@"},{name:"Placements"},{name:"About"}]
 
   return (
-    <div className="flex justify-between items-center p-4 px-10 m-2 border-b-[#DDDDED] border-b-2">
+    <div className="flex justify-between items-center p-4 mx-16 m-2 border-b-[#DDDDED] border-b-2">
       <img src={logo} alt="logo" className="lg:pl-7"/>
       <ul className="flex gap-16 items-center">
         {
