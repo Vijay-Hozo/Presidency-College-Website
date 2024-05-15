@@ -10,6 +10,7 @@ import BSchool from "./sections/BSchool";
 import Testimontials from "./sections/Testimontials";
 import CampusLife from "./sections/CampusLife";
 import Blog from "./sections/Blog";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Testimontials />
       <CampusLife />
       <Blog />
+      <Footer />
     </>
   );
 };
