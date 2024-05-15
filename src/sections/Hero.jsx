@@ -6,13 +6,13 @@ const Hero = () => {
     <div className="flex justify-between items-center px-14 pt-10">
       {/**Hero Left */}
       <div className="pl-12">
-        <div className="tracking-tight text-[64px] font-[600] leading-[70px] mb-4">
+        <div className="tracking-tight text-[64px] font-[600] leading-[74px] mb-4">
           <p className="w-full">
             Let’s start your <br />
             education journey at
           </p>
           <div className="py-2">
-            <p className="border-b-[12px] border-b-yellow leading-[35px]">
+            <p className="tracking-wide border-b-[10px] border-b-yellow leading-[42px]">
               Presidency College
             </p>
           </div>
@@ -25,9 +25,9 @@ const Hero = () => {
             shadow.
           </p>
         </div>
-        <div className="h-12 flex justify-between bg-orange w-48 mt-14 rounded-full">
+        <div className="p-2 h-12 flex justify-between bg-orange w-48 mt-14 rounded-full">
           <button className="text-center w-full text-white font-semibold">
-            Apply now
+            Get started
           </button>
           <img src={rightArrow} alt="" />
         </div>

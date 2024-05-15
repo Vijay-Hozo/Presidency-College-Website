@@ -18,18 +18,22 @@ const Rank = () => {
       {/* Ranked Marquee */}
       <div className="bg-blue text-white my-8 rounded-2xl">
         <marquee direction="right" scrollamount="30">
-          <div className="flex gap-14 py-10">
+          <div className="flex gap-14 py-5 pt-10">
             {ranked.map((rank) => (
-              <div key={rank.rank} className="m-2 w-96  border-2 border-yellow">
-                <h2 className="text-[64px] font-bold ">{rank.rank}</h2>
-                <p className="text-[24px] font-normal">{rank.desc}</p>
+              <div key={rank.rank} className="m-2">
+                <h2 className="text-[64px] font-bold leading-[50px] ">
+                  {rank.rank}
+                </h2>
+                <p className="text-[24px] font-normal w-[350px] leading-[30px] text-wrap">
+                  {rank.desc}
+                </p>
               </div>
             ))}
           </div>
         </marquee>
       </div>
       {/* Milestones */}
-      <div className="flex gap-4 py-10">
+      <div className="flex justify-center gap-4 py-10">
         {milestones.map((milestone) => (
           <div key={milestone}>
             <img src={milestone.image} alt="" />

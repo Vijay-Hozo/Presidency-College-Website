@@ -1,7 +1,6 @@
 import post1 from "../assets/images/post-1.png";
 import post2 from "../assets/images/post-2.png";
 import post3 from "../assets/images/post-3.png";
-import post4 from "../assets/images/post-4.png";
 import post5 from "../assets/images/post-5.png";
 import post6 from "../assets/images/post-6.png";
 import post7 from "../assets/images/post-7.png";
@@ -17,31 +16,36 @@ import milestone_2021 from "../assets/images/2012_cycle.png";
 import milestone_Approved from "../assets/images/Approved_Research.png";
 import milestone_Permanent from "../assets/images/Permanent_Affiliate.png";
 import milestone_UGC from "../assets/images/Recognized_by_UGC.png";
+import Sap from "../assets/images/SAP.png";
+import Infosys from "../assets/images/Infosys.png";
+import Puma from "../assets/images/PUMA.png";
+import Clubmahindra from "../assets/images/Clubmahindra.png";
+import Deloitte from "../assets/images/Deloitte.png";
 
 export const school = [
   {
     id: 1,
     rank: "#11",
     description: "India’s Top-ranked private autonomous ASC colleges (2024)",
-    color: "red",
+    color: "#BA1717",
   },
   {
     id: 2,
     rank: "100%",
     description: "Placement Percentage over the Years",
-    color: "yellow",
+    color: "#EF7D00",
   },
   {
     id: 3,
     rank: "20k+",
     description: "Alumni Across the Globe",
-    color: "violet",
+    color: "#421193",
   },
   {
     id: 4,
     rank: "21+",
     description: "Years of Education Experience",
-    color: "yellow",
+    color: "#FFBA00",
   },
 ];
 
@@ -64,6 +68,30 @@ export const blog = [
     heading: "Exclusive Student Discount: Best deals",
     desc: "Lorem ipsum dolor sit amet consectetur. Mauris arcu vulputate ipsum ac pretium est laoreet porta sed. ",
   },
+  {
+    id: 3,
+    image: blog3,
+    heading: "Exclusive Student Discount: Best deals",
+    desc: "Lorem ipsum dolor sit amet consectetur. Mauris arcu vulputate ipsum ac pretium est laoreet porta sed. ",
+  },
+  {
+    id: 4,
+    image: blog3,
+    heading: "Exclusive Student Discount: Best deals",
+    desc: "Lorem ipsum dolor sit amet consectetur. Mauris arcu vulputate ipsum ac pretium est laoreet porta sed. ",
+  },
+  {
+    id: 5,
+    image: blog3,
+    heading: "Exclusive Student Discount: Best deals",
+    desc: "Lorem ipsum dolor sit amet consectetur. Mauris arcu vulputate ipsum ac pretium est laoreet porta sed. ",
+  },
+  {
+    id: 6,
+    image: blog3,
+    heading: "Exclusive Student Discount: Best deals",
+    desc: "Lorem ipsum dolor sit amet consectetur. Mauris arcu vulputate ipsum ac pretium est laoreet porta sed. ",
+  },
 ];
 
 export const post = [
@@ -81,7 +109,7 @@ export const post = [
   },
   {
     id: 4,
-    image: post4,
+    image: post7,
   },
   {
     id: 5,
@@ -162,7 +190,33 @@ export const profile = [
     description:
       "Studying at Presidency College was truly edifying and fun. Committing to a full time course like MBA is an enriching experience by itself. On the contrary, demanded hard work, dedication and sacrifice. Nevertheless, the benefits of Presidency",
   },
+  {
+    id: 3,
+    image: profile3,
+    name: "Padma Priya.S",
+    graduation: "MBA (2020-2022)",
+    description:
+      "Studying at Presidency College was truly edifying and fun. Committing to a full time course like MBA is an enriching experience by itself. On the contrary, demanded hard work, dedication and sacrifice. Nevertheless, the benefits of Presidency",
+  },
+  {
+    id: 3,
+    image: profile3,
+    name: "Padma Priya.S",
+    graduation: "MBA (2020-2022)",
+    description:
+      "Studying at Presidency College was truly edifying and fun. Committing to a full time course like MBA is an enriching experience by itself. On the contrary, demanded hard work, dedication and sacrifice. Nevertheless, the benefits of Presidency",
+  },
+  {
+    id: 3,
+    image: profile3,
+    name: "Padma Priya.S",
+    graduation: "MBA (2020-2022)",
+    description:
+      "Studying at Presidency College was truly edifying and fun. Committing to a full time course like MBA is an enriching experience by itself. On the contrary, demanded hard work, dedication and sacrifice. Nevertheless, the benefits of Presidency",
+  },
 ];
+
+export const recruiters = [Deloitte, Infosys, Sap, Puma, Clubmahindra];
 
 export const ranked = [
   {
@@ -177,10 +231,40 @@ export const ranked = [
            Colleges of this Century`,
   },
   {
+    rank: "Ranked #2",
+    desc: `BA Programme in Top Emerging
+           Colleges of this Century`,
+  },
+  {
+    rank: "Ranked #2",
+    desc: `BA Programme in Top Emerging
+           Colleges of this Century`,
+  },
+  {
+    rank: "Ranked #2",
+    desc: `BA Programme in Top Emerging
+    Colleges of this Century`,
+  },
+  {
+    rank: "Ranked #2",
+    desc: `BA Programme in Top Emerging
+    Colleges of this Century`,
+  },
+  {
+    rank: "Ranked #2",
+    desc: `BA Programme in Top Emerging
+    Colleges of this Century`,
+  },
+  {
     rank: "Ranked #3",
     desc: `Metro City Level
-           - Bengaluru's Best Top Ranked Private Autonomous College
-           - Education World 2022`,
+    - Bengaluru's Best Top Ranked Private Autonomous College
+    - Education World 2022`,
+  },
+  {
+    rank: "Ranked #2",
+    desc: `BA Programme in Top Emerging
+           Colleges of this Century`,
   },
 ];
 
